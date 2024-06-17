@@ -9,8 +9,8 @@ try:
     def Extract_Data():
         conn = http.client.HTTPSConnection("linkedin-data-api.p.rapidapi.com")
         headers = {
-            'x-rapidapi-key': "a6b1e2ceeamsh13d3f5ed213ace3p107805jsn1663e38b1480",
-            'x-rapidapi-host': "linkedin-data-api.p.rapidapi.com"
+            'x-rapidapi-key': "API-KEY",
+            'x-rapidapi-host': "RAPIDAPI-HOST"
         }
 
         conn.request("GET", "/search-jobs?keywords=golang&locationId=92000000&datePosted=anyTime&sort=mostRelevant", headers=headers)
@@ -98,12 +98,12 @@ try:
 
         # Snowflake credentials
         con_parameter = {
-            'user': 'VIJAR12',
-            'password': 'Vija@r12',
-            'account': 'ynrrnvl-tq54492',
-            'warehouse': 'COMPUTE_WH',
-            'database': 'RAPIDAPI_PIPELINE_PROJECT',
-            'schema': 'TRANSFORMED_DATA'
+            'user': 'User_Name',
+            'password': 'Password,
+            'account': 'Account_Name',
+            'warehouse': 'Warehouse',
+            'database': 'Database',
+            'schema': 'Schema'
         }
 
         try:
