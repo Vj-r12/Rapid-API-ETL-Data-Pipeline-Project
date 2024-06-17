@@ -1,4 +1,4 @@
-# Rapid-API-ETL-Data-Pipeline-Project
+# RapidAPI-ETL-Data-Pipeline-Project
 This repository contains a comprehensive data pipeline project that extracts data from LinkedIn APIs via RapidAPI, transforms the data using Python and Pandas, and loads it into Snowflake. The entire pipeline is containerized with Docker, facilitating easy deployment and scalability.
 
 
